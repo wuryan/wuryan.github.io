@@ -92,7 +92,7 @@
 <meta property="og:site_name" content="嘎嘎空间">
 <meta property="og:description" content="Java多线程实战（1）标签（空格分隔）： java 多线程 并发线程是什么？从底层来说线程其实就是一块存储CPU指令的内存空间，CPU为每一个线程分配时间片，每一个时间片周期内，CPU会按照线程的指令顺序执行，如果一个时间片周期内CPU没有全部执行完线程中的指令，则CPU会记录执行到哪个指令，然后切换到下个时间片，以此反复。那么就可以把线程比喻成要做事的人，人做事都是顺序执行的。
 搞清楚并发和并">
-<meta property="og:updated_time" content="2017-01-01T09:21:25.129Z">
+<meta property="og:updated_time" content="2017-01-01T09:22:53.029Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Java多线程实战（1）">
 <meta name="twitter:description" content="Java多线程实战（1）标签（空格分隔）： java 多线程 并发线程是什么？从底层来说线程其实就是一块存储CPU指令的内存空间，CPU为每一个线程分配时间片，每一个时间片周期内，CPU会按照线程的指令顺序执行，如果一个时间片周期内CPU没有全部执行完线程中的指令，则CPU会记录执行到哪个指令，然后切换到下个时间片，以此反复。那么就可以把线程比喻成要做事的人，人做事都是顺序执行的。
@@ -190,7 +190,7 @@
             
               <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
             
-            Startseite
+            Home
           </a>
         </li>
       
@@ -200,7 +200,7 @@
             
               <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
             
-            Archiv
+            Archives
           </a>
         </li>
       
@@ -280,7 +280,7 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Veröffentlicht am</span>
+                <span class="post-meta-item-text">Posted on</span>
               
               <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-01-01T17:16:25+08:00">
                 2017-01-01
@@ -330,7 +330,7 @@
 <li>异步：<br>如果小张将这个任务交给另外一个人“小王”来做，那么小王就开启了一个叫做“小王”的线程来做这个任务，然后小张就可能忙其他任务去了，那么这个就是异步。如果这个时候领导又分配给小张其他任务，小张就可以做新任务。</li>
 </ul>
 <h2 id="临界区"><a href="#临界区" class="headerlink" title="临界区"></a>临界区</h2><p>临界区其实就是一种共享数据区或者说是一个公共资源区。比如说公共厕所就是一个共享资源，每个人都可以进去，但是这个资源是有限的，当里面有人时，就会把门锁住，外面的人想进去就必须等待里面的人出来。</p>
-<p>##阻塞和非阻塞<br>阻塞和非阻塞通常用来形容多个线程同时访问临界区时的相互影响。</p>
+<h2 id="阻塞和非阻塞"><a href="#阻塞和非阻塞" class="headerlink" title="阻塞和非阻塞"></a>阻塞和非阻塞</h2><p>阻塞和非阻塞通常用来形容多个线程同时访问临界区时的相互影响。</p>
 <ul>
 <li>阻塞<br>小张接到领导分配的任务，需要用到打印机（临界区，共享资源），当他去使用打印机的时候，发现打印机已经被小王使用了，小张这时候就在打印机前面等待小张使用完毕再使用，这就是阻塞。</li>
 <li>非阻塞<br>和阻塞同样的场景，小张这时候回去做这个任务的其他部分，过一会再来使用打印机，这就是非阻塞。</li>
@@ -429,10 +429,10 @@
       
         <ul class="sidebar-nav motion-element">
           <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
-            Inhaltsverzeichnis
+            Table of Contents
           </li>
           <li class="sidebar-nav-overview" data-target="site-overview">
-            Übersicht
+            Overview
           </li>
         </ul>
       
@@ -451,7 +451,7 @@
             <div class="site-state-item site-state-posts">
               <a href="/archives">
                 <span class="site-state-item-count">4</span>
-                <span class="site-state-item-name">Artikel</span>
+                <span class="site-state-item-name">posts</span>
               </a>
             </div>
           
@@ -462,7 +462,7 @@
             <div class="site-state-item site-state-tags">
               <a href="/tags">
                 <span class="site-state-item-count">3</span>
-                <span class="site-state-item-name">Tags</span>
+                <span class="site-state-item-name">tags</span>
               </a>
             </div>
           
@@ -496,7 +496,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Java多线程实战（1）"><span class="nav-number">1.</span> <span class="nav-text">Java多线程实战（1）</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#标签（空格分隔）：-java-多线程-并发"><span class="nav-number">1.1.</span> <span class="nav-text">标签（空格分隔）： java 多线程 并发</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#线程是什么？"><span class="nav-number">1.2.</span> <span class="nav-text">线程是什么？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#搞清楚并发和并行"><span class="nav-number">1.3.</span> <span class="nav-text">搞清楚并发和并行</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#同步和异步"><span class="nav-number">1.4.</span> <span class="nav-text">同步和异步</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#临界区"><span class="nav-number">1.5.</span> <span class="nav-text">临界区</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#同步和异步、阻塞和非阻塞有何异同？"><span class="nav-number">1.6.</span> <span class="nav-text">同步和异步、阻塞和非阻塞有何异同？</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Java多线程实战（1）"><span class="nav-number">1.</span> <span class="nav-text">Java多线程实战（1）</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#标签（空格分隔）：-java-多线程-并发"><span class="nav-number">1.1.</span> <span class="nav-text">标签（空格分隔）： java 多线程 并发</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#线程是什么？"><span class="nav-number">1.2.</span> <span class="nav-text">线程是什么？</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#搞清楚并发和并行"><span class="nav-number">1.3.</span> <span class="nav-text">搞清楚并发和并行</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#同步和异步"><span class="nav-number">1.4.</span> <span class="nav-text">同步和异步</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#临界区"><span class="nav-number">1.5.</span> <span class="nav-text">临界区</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#阻塞和非阻塞"><span class="nav-number">1.6.</span> <span class="nav-text">阻塞和非阻塞</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#同步和异步、阻塞和非阻塞有何异同？"><span class="nav-number">1.7.</span> <span class="nav-text">同步和异步、阻塞和非阻塞有何异同？</span></a></li></ol></li></ol></div>
             
 
           </div>
@@ -526,7 +526,7 @@
 
 
 <div class="powered-by">
-  Erstellt mit  <a class="theme-link" href="https://hexo.io">Hexo</a>
+  Powered by <a class="theme-link" href="https://hexo.io">Hexo</a>
 </div>
 
 <div class="theme-info">
